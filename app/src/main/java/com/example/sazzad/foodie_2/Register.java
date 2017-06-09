@@ -8,7 +8,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class Register extends AppCompatActivity {
-    EditText name1,loc,phoneno,pass;
+    EditText eName,loc,phoneno,pass;
     Button b;
     String name,location,email,phone,password;
     private  static  final  String reg_url = "http://localhost/foodie/register.php";
@@ -21,6 +21,7 @@ public class Register extends AppCompatActivity {
         String name,location,phone,password;
 
 
+
         name1=(EditText) findViewById(R.id.name);
         phoneno=(EditText) findViewById(R.id.phone);
         loc=(EditText) findViewById(R.id.location);
@@ -29,7 +30,7 @@ public class Register extends AppCompatActivity {
     }
     public void onClickReg(View v) {
         Toast.makeText(getApplicationContext(),"clicked on button",Toast.LENGTH_LONG).show();
-        name=name1.getText().toString();
+        name= eName.getText().toString();
 
         location=loc.getText().toString().trim().toLowerCase();;
         phone=phoneno.getText().toString().trim().toLowerCase();;
