@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_food_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.sazzad.foodie_2.FoodDetails">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="#E6DEDC"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+       android:paddingLeft="10dp"
+        android:orientation="horizontal"
+        android:background="@android:color/holo_red_dark"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="70dp"
+            android:layout_height="47dp"
+            android:src="@drawable/menu"
+            android:paddingRight="10dp"
+
+
+            />
+        <Button
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="86dp"
+            android:background="#FFFFFF"
+            android:layout_height="31dp"
+            android:text="Cart"
+            android:id="@+id/cartbutton"
+            android:textColor="#000000" />
+        <Button
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="86dp"
+            android:background="#FFFFFF"
+            android:layout_height="31dp"
+            android:text="Login"
+            android:textColor="#000000" />
+
+        <SearchView
+
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="65dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/food1"
+       android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:layout_marginLeft="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="Add To Cart"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        android:text="Food1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:textSize="25dp"
+        android:text="Tk 150"
+        />
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="X food corner"
+        />
+    <RatingBar
+        android:layout_width="15dp"
+        android:layout_height="15dp" />
+</LinearLayout>
+
+
+
+</LinearLayout>

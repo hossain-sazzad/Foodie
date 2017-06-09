@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Foodie_2</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="city">
+        <item>Your city</item>
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+        <item>Khulna</item>
+        <item>Rajshahi</item>
+        <item>Jesssor</item>
+        <item>Rangpur</item>
+
+    </string-array>
+    <string-array name="locationDhaka">
+        <item>Your area</item>
+        <item>Azimpur</item>
+        <item>Uttara</item>
+        <item>Dhanmondi</item>
+        <item>Bonani</item>
+        <item>Farmgate</item>
+        <item>Mirpur</item>
+
+    </string-array>
+    <string-array name="locationChittagong">
+        <item>GEC </item>
+        <item>Chawkbazar</item>
+        <item>Bahaddarhat</item>
+        <item>New market</item>
+        <item>Halishahar</item>
+        <item>Khulshi</item>
+
+    </string-array>
+
+
+</resources>
